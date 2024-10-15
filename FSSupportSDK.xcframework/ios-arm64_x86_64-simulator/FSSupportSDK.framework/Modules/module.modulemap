@@ -1,0 +1,6 @@
+framework module FSSupportSDK {
+  umbrella header "FSSupportSDK.h"
+  export *
+
+  module * { export * }
+}
