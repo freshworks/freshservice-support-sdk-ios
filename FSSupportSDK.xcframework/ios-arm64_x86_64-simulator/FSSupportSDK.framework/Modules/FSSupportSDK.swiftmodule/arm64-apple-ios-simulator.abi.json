@@ -8314,7 +8314,7 @@
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKView.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2272,
       "length": 11,
       "value": "\"FSSupportSDK.Coordinator\""
     },
@@ -8615,49 +8615,49 @@
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16202,
+      "offset": 15822,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16205,
+      "offset": 15825,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16217,
+      "offset": 15837,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16220,
+      "offset": 15840,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16231,
+      "offset": 15851,
       "length": 3,
       "value": "197"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16235,
+      "offset": 15855,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16247,
+      "offset": 15867,
       "length": 1,
       "value": "1"
     },
