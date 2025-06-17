@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FSSupportSDK",
+    "printedName": "FSSupportSDK",
     "children": [
       {
         "kind": "Import",
@@ -35,7 +35,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -433,6 +449,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -683,8 +713,8 @@
               },
               {
                 "kind": "Var",
-                "name": "enbleDarkMode",
-                "printedName": "enbleDarkMode",
+                "name": "enableDarkMode",
+                "printedName": "enableDarkMode",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -702,8 +732,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvp",
-                "mangledName": "$s12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvp",
+                "usr": "s:12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvp",
+                "mangledName": "$s12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvp",
                 "moduleName": "FSSupportSDK",
                 "declAttributes": [
                   "HasInitialValue",
@@ -734,8 +764,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvg",
-                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvg",
+                    "usr": "s:12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvg",
+                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvg",
                     "moduleName": "FSSupportSDK",
                     "implicit": true,
                     "accessorKind": "get"
@@ -766,8 +796,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvs",
-                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvs",
+                    "usr": "s:12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvs",
+                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvs",
                     "moduleName": "FSSupportSDK",
                     "implicit": true,
                     "accessorKind": "set"
@@ -784,8 +814,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvM",
-                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV13enbleDarkModeSbSgvM",
+                    "usr": "s:12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvM",
+                    "mangledName": "$s12FSSupportSDK0A0C6ConfigV14enableDarkModeSbSgvM",
                     "moduleName": "FSSupportSDK",
                     "implicit": true,
                     "accessorKind": "_modify"
@@ -795,7 +825,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(themeColor:enbleDarkMode:)",
+                "printedName": "init(themeColor:enableDarkMode:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -835,8 +865,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12FSSupportSDK0A0C6ConfigV10themeColor13enbleDarkModeAESo7UIColorCSg_SbSgtcfc",
-                "mangledName": "$s12FSSupportSDK0A0C6ConfigV10themeColor13enbleDarkModeAESo7UIColorCSg_SbSgtcfc",
+                "usr": "s:12FSSupportSDK0A0C6ConfigV10themeColor14enableDarkModeAESo7UIColorCSg_SbSgtcfc",
+                "mangledName": "$s12FSSupportSDK0A0C6ConfigV10themeColor14enableDarkModeAESo7UIColorCSg_SbSgtcfc",
                 "moduleName": "FSSupportSDK",
                 "declAttributes": [
                   "AccessControl",
@@ -852,6 +882,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -1134,6 +1180,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -1546,7 +1606,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1584,7 +1660,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2021,6 +2113,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4801,6 +4907,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Hashable",
                 "printedName": "Hashable",
                 "usr": "s:SH",
@@ -4912,6 +5032,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5065,6 +5201,8 @@
             "mangledName": "$s12FSSupportSDK14SupportSDKViewV10entryPoint6configAcA05EntryF0O_SayAA0A0C7ModulesOGSg7modules_So7UIColorCSg5themeSbSg16isDarkModeEnabletSgtcfc",
             "moduleName": "FSSupportSDK",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5087,6 +5225,7 @@
             "mangledName": "$s12FSSupportSDK14SupportSDKViewV15makeCoordinatorAC0F0CyF",
             "moduleName": "FSSupportSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5124,6 +5263,7 @@
             "mangledName": "$s12FSSupportSDK14SupportSDKViewV20makeUIViewController7contextAA0cdG0C7SwiftUI0fG20RepresentableContextVyACG_tF",
             "moduleName": "FSSupportSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5166,6 +5306,7 @@
             "mangledName": "$s12FSSupportSDK14SupportSDKViewV22updateUIViewController_7contextyAA0cdG0C_7SwiftUI0fG20RepresentableContextVyACGtF",
             "moduleName": "FSSupportSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5219,6 +5360,20 @@
               "ObjectiveC.NSObject"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -5276,10 +5431,26 @@
         "mangledName": "$s12FSSupportSDK14SupportSDKViewV",
         "moduleName": "FSSupportSDK",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "UIViewControllerRepresentable",
@@ -5336,6 +5507,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5751,6 +5929,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5790,6 +5982,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5822,6 +6015,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -5878,6 +6072,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5919,6 +6114,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -5963,6 +6159,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -6015,6 +6212,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6052,6 +6250,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -6085,6 +6284,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -6124,6 +6324,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6136,6 +6337,7 @@
         "mangledName": "$s12FSSupportSDK24SupportSDKViewControllerC",
         "moduleName": "FSSupportSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -6149,6 +6351,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7195,6 +7411,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7275,6 +7505,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7362,6 +7606,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7416,1330 +7674,861 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 14,
       "value": "\"access_token\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 11,
       "value": "\"freshdesk\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 562,
       "length": 11,
       "value": "\"freshchat\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 600,
       "length": 13,
       "value": "\"freshcaller\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 11,
       "value": "\"freshteam\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 678,
       "length": 15,
       "value": "\"freshmarketer\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 12,
       "value": "\"freshsales\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 14,
       "value": "\"freshservice\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 14,
       "value": "\"freshsuccess\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 524,
-      "length": 11,
-      "value": "\"freshdesk\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 562,
-      "length": 11,
-      "value": "\"freshchat\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 13,
-      "value": "\"freshcaller\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 640,
-      "length": 11,
-      "value": "\"freshteam\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 678,
-      "length": 15,
-      "value": "\"freshmarketer\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 720,
-      "length": 12,
-      "value": "\"freshsales\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 759,
-      "length": 14,
-      "value": "\"freshservice\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 800,
-      "length": 14,
-      "value": "\"freshsuccess\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 872,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 908,
       "length": 18,
       "value": "\"\/oauth\/authorize\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 948,
       "length": 14,
       "value": "\"\/oauth\/token\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 985,
       "length": 28,
       "value": "\"\/api\/v2\/session\/invalidate\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 872,
-      "length": 10,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 908,
-      "length": 18,
-      "value": "\"\/oauth\/authorize\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 14,
-      "value": "\"\/oauth\/token\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 985,
-      "length": 28,
-      "value": "\"\/api\/v2\/session\/invalidate\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 1058,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 1080,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 1103,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 1058,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 1080,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 1103,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
       "kind": "StringLiteral",
       "offset": 1202,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 1168,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOUtility.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
       "kind": "StringLiteral",
       "offset": 133,
       "length": 14,
       "value": "\"FSSupportSDK\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
       "kind": "StringLiteral",
       "offset": 168,
       "length": 20,
       "value": "\"FSSupportLogInUser\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Identity.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/DebugLogger.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/DebugLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 31,
       "value": "\"ReceivedNoDayPassNotification\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 24,
       "value": "\"day_pass_not_available\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 305,
       "length": 8,
       "value": "\"\/api\/_\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 14,
       "value": "\"\/support\/v2\/\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "Array",
       "offset": 445,
       "length": 43,
       "value": "[\"support\/mobile\/settings\/consume_daypass\"]"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
       "kind": "StringLiteral",
       "offset": 805,
       "length": 23,
       "value": "\"daypass_not_available\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/FSResponseHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 805,
-      "length": 23,
-      "value": "\"daypass_not_available\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 12,
       "value": "\"account_id\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 709,
       "length": 10,
       "value": "\"is_agent\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 776,
       "length": 16,
       "value": "\"requester_name\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 12,
-      "value": "\"account_id\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 709,
-      "length": 10,
-      "value": "\"is_agent\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 776,
-      "length": 16,
-      "value": "\"requester_name\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileAuthTokenDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 842,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 30,
       "value": "\"mobile\/settings\/mobile_login\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 24,
       "value": "\"mobile\/user_auth_token\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 727,
-      "length": 30,
-      "value": "\"mobile\/settings\/mobile_login\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/RemoteDataLoader.swift",
-      "kind": "StringLiteral",
-      "offset": 783,
-      "length": 24,
-      "value": "\"mobile\/user_auth_token\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
       "kind": "StringLiteral",
       "offset": 375,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
       "kind": "StringLiteral",
       "offset": 391,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWSession.swift",
-      "kind": "StringLiteral",
-      "offset": 106,
-      "length": 9,
-      "value": "\"FSSupportSDK.FWSession\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "StringLiteral",
       "offset": 3340,
       "length": 22,
       "value": "\"SwiftKeychainWrapper\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 4700,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 7384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 7764,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 8149,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 8534,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 9458,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 10435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 11348,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 12653,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 13507,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 13826,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 14146,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 14464,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 15425,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 16497,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 17504,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 18797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 19742,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 22483,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SwiftKeychainWrapper\/KeychainWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 24013,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 4,
       "value": "7001"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 4,
       "value": "7002"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 4,
       "value": "7003"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 4,
       "value": "7004"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 4,
       "value": "7100"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 484,
       "length": 4,
       "value": "7400"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 531,
       "length": 4,
       "value": "7500"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 587,
       "length": 4,
       "value": "7600"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 662,
       "length": 4,
       "value": "7700"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 718,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "IntegerLiteral",
       "offset": 764,
       "length": 2,
       "value": "-5"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 4,
-      "value": "7001"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 4,
-      "value": "7002"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 278,
-      "length": 4,
-      "value": "7003"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 314,
-      "length": 4,
-      "value": "7004"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 398,
-      "length": 4,
-      "value": "7100"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 484,
-      "length": 4,
-      "value": "7400"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 531,
-      "length": 4,
-      "value": "7500"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 4,
-      "value": "7600"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 662,
-      "length": 4,
-      "value": "7700"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 718,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 764,
-      "length": 1,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 4,
-      "value": "7001"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 243,
-      "length": 4,
-      "value": "7002"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 278,
-      "length": 4,
-      "value": "7003"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 314,
-      "length": 4,
-      "value": "7004"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 398,
-      "length": 4,
-      "value": "7100"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 484,
-      "length": 4,
-      "value": "7400"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 531,
-      "length": 4,
-      "value": "7500"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 587,
-      "length": 4,
-      "value": "7600"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 662,
-      "length": 4,
-      "value": "7700"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 718,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 764,
-      "length": 1,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOError.swift",
       "kind": "StringLiteral",
       "offset": 2956,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 12,
       "value": "\"PKUQ4ZWJH3\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 10,
       "value": "\"FWAppSSO\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 283,
       "length": 40,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 293,
       "length": 1,
       "value": "\".com.freshworks.sharedApp.sso\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 19,
       "value": "\"ssoActiveSessions\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOKeyChainManager.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 18,
       "value": "\"CurrentOrgDomain\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKView.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKView.swift",
       "kind": "Array",
       "offset": 566,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKView.swift",
-      "kind": "StringLiteral",
-      "offset": 2272,
-      "length": 11,
-      "value": "\"FSSupportSDK.Coordinator\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 18,
       "value": "\"Failed to logout\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 29,
       "value": "\"Failed to get domain detail\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 29,
       "value": "\"Failed to get Login session\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 25,
       "value": "\"Unable to fetch session\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 22,
       "value": "\"Invalid FreshId data\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 451,
       "length": 20,
       "value": "\"Fresh Id Exception\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
       "offset": 503,
-      "length": 30,
-      "value": "\"FSSupportSDK not initialized\""
+      "length": 52,
+      "value": "\"FSSupportSDK instance is not initialized properly.\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
-      "offset": 153,
-      "length": 18,
-      "value": "\"Failed to logout\""
+      "offset": 584,
+      "length": 41,
+      "value": "\"Reinitialize the FSSupportSDK Instance.\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
-      "offset": 211,
-      "length": 29,
-      "value": "\"Failed to get domain detail\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 280,
-      "length": 29,
-      "value": "\"Failed to get Login session\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 339,
-      "length": 25,
-      "value": "\"Unable to fetch session\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 398,
-      "length": 22,
-      "value": "\"Invalid FreshId data\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 451,
-      "length": 20,
-      "value": "\"Fresh Id Exception\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 503,
-      "length": 30,
-      "value": "\"FSSupportSDK not initialized\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 699,
       "length": 46,
       "value": "\"Something went wrong, Please try again later\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
-      "offset": 679,
+      "offset": 771,
       "length": 64,
       "value": "\"Network error occurred. Please check your internet connection.\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
       "kind": "StringLiteral",
-      "offset": 775,
+      "offset": 867,
       "length": 59,
       "value": "\"Access denied. You do not have the necessary permissions.\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 46,
-      "value": "\"Something went wrong, Please try again later\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 679,
-      "length": 64,
-      "value": "\"Network error occurred. Please check your internet connection.\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/FSSupportError.swift",
-      "kind": "StringLiteral",
-      "offset": 775,
-      "length": 59,
-      "value": "\"Access denied. You do not have the necessary permissions.\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 12,
       "value": "\"org_domain\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 18,
       "value": "\"org_v2_client_id\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 18,
       "value": "\"org_v2_login_url\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 19,
       "value": "\"org_v2_logout_url\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 14,
       "value": "\"redirect_uri\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
       "kind": "StringLiteral",
       "offset": 871,
       "length": 13,
       "value": "\"org_v2_slug\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 630,
-      "length": 12,
-      "value": "\"org_domain\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 676,
-      "length": 18,
-      "value": "\"org_v2_client_id\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 728,
-      "length": 18,
-      "value": "\"org_v2_login_url\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 781,
-      "length": 19,
-      "value": "\"org_v2_logout_url\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 832,
-      "length": 14,
-      "value": "\"redirect_uri\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/Data\/Model\/MobileLoginDetailApiModel.swift",
-      "kind": "StringLiteral",
-      "offset": 871,
-      "length": 13,
-      "value": "\"org_v2_slug\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 557,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 608,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
-      "kind": "StringLiteral",
-      "offset": 557,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/APIManager\/URLSessionHTTPClient.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2423,
+      "offset": 2460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2645,
       "length": 21,
       "value": "\"SupportSDKInterface\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15822,
+      "offset": 17562,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15825,
+      "offset": 17565,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15837,
+      "offset": 17577,
       "length": 2,
       "value": "92"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15840,
+      "offset": 17580,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15851,
+      "offset": 17591,
       "length": 3,
       "value": "197"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15855,
+      "offset": 17595,
       "length": 3,
       "value": "255"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/SupportSDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15867,
+      "offset": 17607,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/FWProductDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 113,
-      "length": 16,
-      "value": "\"FSSupportSDK.FWProductDetails\""
-    },
-    {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 545,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 589,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 743,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 828,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1856,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "StringLiteral",
       "offset": 1956,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "StringLiteral",
       "offset": 2018,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "StringLiteral",
       "offset": 6289,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "StringLiteral",
       "offset": 6351,
       "length": 7,
       "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "BooleanLiteral",
       "offset": 19484,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nvijayakumar\/Documents\/workspace\/iOSProjects\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
+      "filePath": "\/Users\/nvijayakumar\/Documents\/FSWorkspace\/Mobile\/freshservice_ios_sdk_dev\/FSSupportSDKStaticFramework\/FSSupportSDK\/FSSupportSDK\/mobile_ios_sso_sdk\/SSOManager.swift",
       "kind": "Dictionary",
       "offset": 27653,
       "length": 3,
