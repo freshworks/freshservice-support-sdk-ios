@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         		 = "FSSupportSDK"
-  s.version      		 = "1.0.0-beta01"
+  s.version      		 = "1.0.0-beta02"
   s.summary      		 = "Freshservice Support SDK"
   s.homepage     		 = "https://www.freshworks.com/freshservice"
   s.license 	 		 = { :type => 'Commercial', :file => 'LICENSE', :text => 'See https://www.freshworks.com/terms' }
